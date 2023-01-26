@@ -1,0 +1,13 @@
+.container{
+    width:100%;
+   
+    padding:0;
+}
+.halloween img{
+    border-radius: 0;
+    
+}
+aside.right,aside.left{
+    text-align: center;
+    float: inherit;
+  }

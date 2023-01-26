@@ -1,0 +1,133 @@
+/*
+ * General Styles
+*/
+html{
+  font-size:100%;
+}
+h1{
+  font-size:3.125rem;
+
+}
+body {
+  background:url('../images/h1.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+
+
+/*
+ * Heading Styles
+*/
+
+
+h1 {
+  font-family: 'Archivo Black' sans-serif;
+  color: #e2802f;
+  text-align: center;
+  margin-bottom: 2.5px;
+}
+
+h2 {
+  font-size: 2.5rem;
+    font-family: 'Archivo Black' sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 2.5px;
+  
+}
+
+/*
+ * Container Styles
+*/
+.halloween{
+  line-height:0;
+  border-radius:20px 20px 0 0;
+
+
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+   
+}
+
+
+  p {
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 28px;
+    
+}
+h1,h2{
+  font-weight: bold;
+}
+
+
+/*
+ * Hero Styles
+*/
+
+aside{
+  margin-right:1.5rem;
+  margin-bottom: 0.625rem;
+}
+halloween{
+  line-height:0;
+}
+
+aside.left{
+  float:left;
+  margin-left:1.5rem;
+}
+aside.right{
+  float:right;
+}
+.halloween img{
+  text-align:center;
+  border-radius:1.25rem 1.25rem 0 0;
+}
+/*
+ * section Styles
+*/
+section.one{
+  background:rgb(0, 0, 0);
+}
+section.venue{
+  background:black;
+}
+section.one,section.venue{
+  padding:40px;
+  
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section:nth-child(even) {
+  background: black;
+  color:#e2802f;
+}
+
+section:nth-child(odd) {
+  background: #e2802f;
+  color: black;
+}
+a{
+  color:#e2802f;
+  text-decoration: none;
+}
+footer{
+  color:white;
+}
